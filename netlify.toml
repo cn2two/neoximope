@@ -3,4 +3,12 @@
   to = "/neoxis2.js"
   status = 200
   force = true
-  headers = {Content-Type = "text/plain"}
+  headers = {Content-Type = "text/javascript"} # <-- CHANGE THIS LINE
+
+# If you also want the root URL to display the code (optional)
+[[redirects]]
+  from = "/"
+  to = "/neoxis2.js"
+  status = 200
+  force = true
+  headers = {Content-Type = "text/plain"} # <-- Keep as text/plain for raw display at root
