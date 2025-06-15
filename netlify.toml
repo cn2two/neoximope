@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/"
+  from = "/mope.js"
   to = "/neoxis2.js"
   status = 200
   force = true
