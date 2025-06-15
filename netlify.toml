@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/"
+  to = "/neoxis2.js"
+  status = 200
+  force = true
+  headers = {Content-Type = "text/plain"}
